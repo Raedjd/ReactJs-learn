@@ -5,4 +5,4 @@ class Hi extends Component{
         return <h1>Class Component</h1>
     }
 }
-export default Hi;
+export default Hi; 
