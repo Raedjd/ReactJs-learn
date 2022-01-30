@@ -4,10 +4,11 @@ import {Greet} from './Components/Greet';
 import Hi from './Components/Hi'
 import Hello from './Components/Hello'
 function App() {
-  const name= "raed"
+
   return (
     <div className="App">
-      <Greet></Greet>
+      <Greet name=' yes'></Greet>
+      <Greet name=' no'></Greet>
       <Hi></Hi>
       <Hello></Hello>
     </div>
