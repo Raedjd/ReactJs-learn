@@ -6,6 +6,7 @@ import Hello from './Components/Hello'
 import Message from './Components/Message';
 import Counter from './Components/Counter';
 import FunctionClick from './Components/FunctionClick';
+import ClassClick from './Components/ClassClick';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Message/>
       <Counter/>
       <FunctionClick/>
+      <ClassClick></ClassClick>
     </div>
   );
 }
