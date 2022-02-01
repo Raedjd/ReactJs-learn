@@ -8,6 +8,7 @@ import Counter from './Components/Counter';
 import FunctionClick from './Components/FunctionClick';
 import ClassClick from './Components/ClassClick';
 import EventBind from './Components/EventBind';
+import User from './Components/User';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <FunctionClick/>
       <ClassClick></ClassClick>
       <EventBind></EventBind>
+      <User></User>
     </div>
   );
 }
