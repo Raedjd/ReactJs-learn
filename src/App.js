@@ -5,6 +5,7 @@ import Hi from './Components/Hi'
 import Hello from './Components/Hello'
 import Message from './Components/Message';
 import Counter from './Components/Counter';
+import FunctionClick from './Components/FunctionClick';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Hello></Hello>
       <Message/>
       <Counter/>
+      <FunctionClick/>
     </div>
   );
 }
