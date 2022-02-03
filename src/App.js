@@ -10,12 +10,13 @@ import ClassClick from './Components/ClassClick';
 import EventBind from './Components/EventBind';
 import User from './Components/User';
 import List from './Components/List';
+import StyleSheets from './Components/StyleSheets';
 
 function App() {
 
   return (
     <div className="App">
-      <Greet name=' yes'></Greet>
+{/*       <Greet name=' yes'></Greet>
       <Greet name=' no'></Greet>
       <Hi name='Raed'></Hi>
       <Hello></Hello>
@@ -25,7 +26,8 @@ function App() {
       <ClassClick></ClassClick>
       <EventBind></EventBind>
       <User></User>
-      <List/>
+      <List/> */}
+      <StyleSheets primary={true}/>
     </div>
   );
 }
