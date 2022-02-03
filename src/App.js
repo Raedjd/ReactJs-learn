@@ -9,6 +9,7 @@ import FunctionClick from './Components/FunctionClick';
 import ClassClick from './Components/ClassClick';
 import EventBind from './Components/EventBind';
 import User from './Components/User';
+import List from './Components/List';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <ClassClick></ClassClick>
       <EventBind></EventBind>
       <User></User>
+      <List/>
     </div>
   );
 }
