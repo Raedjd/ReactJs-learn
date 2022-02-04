@@ -11,6 +11,7 @@ import EventBind from './Components/EventBind';
 import User from './Components/User';
 import List from './Components/List';
 import StyleSheets from './Components/StyleSheets';
+import Form from './Components/Form';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       <User></User>
       <List/> */}
       <StyleSheets primary={true}/>
+      <Form/>
     </div>
   );
 }
