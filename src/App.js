@@ -12,7 +12,8 @@ import User from './Components/User';
 import List from './Components/List';
 import StyleSheets from './Components/StyleSheets';
 import Form from './Components/Form';
-
+import LifeCycleA from './Components/LifeCycleA';
+    
 function App() {
 
   return (
@@ -30,6 +31,7 @@ function App() {
       <List/> */}
       <StyleSheets primary={true}/>
       <Form/>
+      <LifeCycleA></LifeCycleA>
     </div>
   );
 }
