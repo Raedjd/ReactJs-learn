@@ -18,11 +18,31 @@ class LifeCycleA extends Component {
     componentDidMount(){
         console.log("Life cycleA form componentDidMount")
     }
+
+    
+    shouldComponentUpdate(){
+        console.log("Life cycleA form shouldComponentUpdate ");
+        return true
+    }
+
+    getSnapshotBeforeUpdate(prevProps,prevState){
+        console.log("Life cycleA form getSnapshotBeforeUpdate");
+        return null
+    }
+    componentDidUpdate(){
+        console.log("Life cycleA form componentDidUpdate");
+    }
+    changeState = () =>{
+        this.setState({
+            name:'jaidi'
+        })
+    }
     render() {
         console.log("Life cycleA from render");
         return (
             <div>
               <LifeCycleB></LifeCycleB>
+              <button onClick={this.changeState}>chage state</button>
             </div>
         );
     }

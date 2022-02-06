@@ -16,6 +16,19 @@ class LifeCycleB extends Component {
     componentDidMount(){
         console.log("Life cycleB form componentDidMount")
     }
+
+    shouldComponentUpdate(){
+        console.log("Life cycleB form shouldComponentUpdate ");
+        return true
+    }
+
+    getSnapshotBeforeUpdate(prevProps,prevState){
+        console.log("Life cycleB form getSnapshotBeforeUpdate");
+        return null
+    }
+    componentDidUpdate(){
+        console.log("Life cycleB form componentDidUpdate");
+    }
     render() {
         console.log("Life cycleB from render");
         return (
